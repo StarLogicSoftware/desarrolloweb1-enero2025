@@ -1,0 +1,26 @@
+p{
+    color: red; /* color del texto */
+    font-weight: bold;
+    font-size: 16px;
+    font-family:Verdana, Geneva,'Times New Roman';
+    font-style: oblique;
+
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px red;    
+
+    /* background-color: gainsboro; color del fondo */
+}
+
+h1{
+    background-color: red;
+    width: 200px; /* ancho de la cajita */
+    height: 300px;
+    /* text-shadow: 20px 10px 4px green; */
+}
+
+a{
+    background-color: green;
+    width: 150px;
+    height: 100px;
+}

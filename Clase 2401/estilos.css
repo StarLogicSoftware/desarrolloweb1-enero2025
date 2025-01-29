@@ -1,0 +1,93 @@
+*{ /* selector universal */
+    margin: 0;
+    padding: 0;
+} 
+
+h1, p, h2{ /* selector de grupo */
+    margin: 0;
+    padding: 0;
+}
+
+/* article p{ /* selector descendente 
+    color: goldenrod;
+} */
+
+article > p{
+    color: red;
+}
+
+.seccion-rara p{
+    color: red;
+}
+
+/* article .clase1 span{
+    color: rebeccapurple;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+}
+
+p{
+    border-width: 5px;
+    border-style: dashed;
+    border-color: tomato;
+    /* propiedad de atajo 
+    border: 2px solid red;
+    border-radius: 10px;
+    /* text-shadow: 0 0 5px white;
+    box-shadow: 0 0 5px greenyellow, 0 0 10px red; 
+} */
+
+/* 
+div{
+    background-color: white;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+
+    /* propiedades de atajo 
+    margin: 20px; /* 20 20 20 20 
+    margin: 20px 15px; /* 20 15 20 15 
+    margin: 5px 10px 15px 20px;
+
+
+    padding-left: 18px;
+    padding-top: 35px;
+
+    padding: 20px 15px 13px 22px;
+} */
+
+
+/*
+UNIDADES DE MEDIDA
+px-> pixel (fija)
+% -> cierto % del elemento padre
+em -> relativa al tamaño de letra del documento (html)
+rem -> relativo al tamaño de letra del padre
+vw -> ancho del viewport
+vh -> alto del viewport
+*/
