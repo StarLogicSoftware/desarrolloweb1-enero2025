@@ -28,9 +28,34 @@
 }
 
 .boton{
-    background-color: green;
-    padding: 10px 15px;
-    border-radius: 10px;
+    padding: 8px 10px;
+    border-radius: 50px;
     text-decoration: none;
     color: white;
+    display: flex;
+    gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.boton img{
+    height: 18px;
+}
+
+.boton:hover{
+    padding: 14px 15px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.boton-verde{
+    background-color: green;
+}
+
+.boton-azul{
+    background-color: blue;
+}
+
+.boton-rojo{
+    background-color: red;
 }
