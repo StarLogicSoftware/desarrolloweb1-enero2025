@@ -1,0 +1,79 @@
+section {
+    display: grid;
+    gap: 10px;
+    grid-template-areas: "titulo titulo titulo"
+        "texto texto texto"
+        ".      boton1 boton2";
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 60px 30px 40px repeat(15, 32px);
+}
+
+.boton1 {
+    grid-area: boton1;
+}
+
+.boton2 {
+    grid-area: boton2;
+}
+
+h2 {
+    grid-area: titulo;
+    text-align: center;
+}
+
+p {
+    grid-area: texto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    display: grid;
+    grid-template-areas:    "header header"
+                            "main aside"
+                            "footer footer";
+
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: 80px 1fr 120px;
+    min-height: 100vh;
+} 
+
+header {
+    background-color: gray;
+    grid-area: header;
+}
+
+main {
+    background-color: green;
+    grid-area: main;
+}
+
+aside {
+    background-color: tomato;
+    grid-area: aside;
+}
+
+footer {
+    background-color: skyblue;
+    grid-area: footer;
+} */

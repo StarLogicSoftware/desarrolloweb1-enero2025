@@ -1,14 +1,29 @@
 article{
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    grid-template-rows: 100px 1fr 80px;
-    gap: 20px;
-    height: 100vh;
-
     background-color: cornflowerblue;
+    height: 200px;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: 50px 1fr 100px;
+    gap: 20px ;
+
+    /* align-items: center; */
+    /* justify-items: center; */
+    place-items: center;
+
+    /* align-content: space-between; */
+    /* justify-content: space-around; */
+    place-content: center;
+
 }
 
 
 div{
     background-color: tomato;
+}
+
+.item-2{
+    /* justify-self: start; */
+    /* align-self: start; */
+    place-self: start;
 }
