@@ -1,9 +1,9 @@
 section {
     display: grid;
     gap: 10px;
-    grid-template-areas: "titulo titulo titulo"
-        "texto texto texto"
-        ".      boton1 boton2";
+    grid-template-areas:    "titulo titulo titulo"
+                            "texto texto texto"
+                            ".      boton1 boton2";
 
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 60px 30px 40px repeat(15, 32px);
